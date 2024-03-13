@@ -1,16 +1,16 @@
-html, body {
-    font-size: 115%;
+
+html {
+   display: grid;
+   grid-template-columns: 10vw auto 10vw
     
-    width: 750px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-@media (width < 800px) {
-    html, body {
-	width: 640px;
-    }
+body {
+    font-size: 1.5em;
+    grid-column: 2;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
 }
 
 a {
@@ -30,15 +30,16 @@ header {
     position: relative;
     
     display: grid;
-    grid-template-columns: auto 30%;
+    grid-template-columns: auto auto;
+
+    margin-top: 10%;
 }
 
 footer {
-    font-size: small;
     text-align: right;
-
-    margin-top: 50px;
-    opacity: 0.8;
+    font-size: small;
+    opacity: 0.6;
+    margin-top: 20%;
 }
 
 header #title {
