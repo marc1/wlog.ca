@@ -11,6 +11,9 @@ body {
     margin: auto;
     max-width: 800px;
     width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 10%;
 }
 
 a {
@@ -31,15 +34,6 @@ header {
     
     display: grid;
     grid-template-columns: auto auto;
-
-    margin-top: 10%;
-}
-
-footer {
-    text-align: right;
-    font-size: small;
-    opacity: 0.6;
-    margin-top: 20%;
 }
 
 header #title {
@@ -64,4 +58,23 @@ ul {
     list-style-type: none;
     text-align: right;
     margin-right: 1em;
+}
+
+figure {
+    width: 70%;
+
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure figcaption {
+    display: flex;
+    flex-direction: column;
+
+    text-align: right;
 }
