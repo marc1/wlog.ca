@@ -1,8 +1,6 @@
-
 html {
    display: grid;
-   grid-template-columns: 10vw auto 10vw
-    
+   grid-template-columns: 10vw auto 10vw;
 }
 
 body {
@@ -12,7 +10,7 @@ body {
     max-width: 800px;
     width: 100%;
 
-    margin-top: 7%;
+    margin-top: 2.5%;
     margin-bottom: 10%;
 }
 
