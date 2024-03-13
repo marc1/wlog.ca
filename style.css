@@ -39,12 +39,18 @@ header #title {
     grid-column: 1;
 
     position: absolute;
-    bottom: -6%;
+    bottom: -5%;
+
+    font-size: 180%;
+    transition: color 0.2s ease-out;
+}
+
+header #title:hover {
 }
 
 nav {
     grid-column: 2;
-    font
+    font-size: 90%;
 }
 
 ul {
