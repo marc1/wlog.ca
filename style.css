@@ -1,0 +1,54 @@
+html, body {
+    font-size: 115%;
+    
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #0000e6;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:visited {
+    color: #0000e6;
+}
+
+header {
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: auto 30%;
+}
+
+footer {
+    font-size: small;
+    text-align: right;
+
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+header #title {
+    grid-column: 1;
+
+    position: absolute;
+    bottom: -6%;
+}
+
+nav {
+    grid-column: 2;
+    font
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 1em;
+}
