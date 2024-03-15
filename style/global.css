@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+html {
+    display: grid;
+    grid-template-columns: 10vw auto 10vw;
+
+    font-size: 140%;
+
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+body {
+    grid-column: 2;
+
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 1000px;
+    width: 100%;
+}
+
+a:visited {
+    link-decoration: none;
+    color: blue;
+}
